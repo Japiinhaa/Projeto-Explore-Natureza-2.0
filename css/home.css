@@ -19,8 +19,8 @@
     overflow-y: scroll;
     overflow-x: hidden;
     position: relative;
-    margin-right: 50px;
 }
+
 
 .navbar::-webkit-scrollbar{
     background-color: var(--color-border-scroll);
@@ -30,14 +30,6 @@
 .navbar::-webkit-scrollbar-thumb{
     background-color: var(--background-scroll);
     border-radius: 20px;
-}
-
-.navbar{
-    height: 50vh;
-    width: 300px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    position: relative;
 }
 
 .mouse{
@@ -180,5 +172,31 @@
         margin: 1rem auto;
         padding: 0.5rem;
     }
+
+}
+
+@media screen and (max-width: 190px){
+    .title{
+        font-size: 2rem;
+        margin: 1rem auto;
+        padding: 0.5rem;
+    }
+
+    .navbar{
+        margin-left: 40px;
+        width: 300px;
+        height: 40vh;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        position: relative;
+        display: flex;
+    }
+    
+    .title{
+        font-size: 2rem;
+        margin: 1rem auto;
+        padding: 0.5rem;
+    }
+
 
 }
