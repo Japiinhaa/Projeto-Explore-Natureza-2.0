@@ -119,25 +119,29 @@
         padding: 0.5rem;
     }
 
-    .navbar js-list{
-        height: 50vh;
-        width: 300px;
-        overflow-y: scroll;
-        overflow-x: hidden;
-        position: relative;
-        margin-right: 50px;
-    }
-
-    .maindiv{
-        display: flex;
-        flex-direction: column;
-        margin-left: 0px;
-    }
-
-    .mainsection{
-        margin-top: 18px;
+    .navbar{
         margin-left: 40px;
-        width: 320px;
+        width: 300px;
+        height: 40vh;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        position: relative;
+        display: flex;
+    }
+    
+    .title{
+        font-size: 2rem;
+        margin: 1rem auto;
+        padding: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    .title{
+        font-size: 2rem;
+        margin: 1rem auto;
+        padding: 0.5rem;
     }
 
     .navbar{
