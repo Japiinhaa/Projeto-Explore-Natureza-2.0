@@ -67,3 +67,47 @@
     }
 
 }
+
+@media screen and (max-width: 990px){
+    .faq{
+        margin-left: 30px;
+        max-width: 80vw;
+        align-items: center;
+    }
+
+    .title{
+        font-size: 2rem;
+        margin: 1rem auto;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .faq-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    .faq{
+        margin-left: 30px;
+        max-width: 80vw;
+        align-items: center;
+    }
+
+    .title{
+        font-size: 2rem;
+        margin: 1rem auto;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .faq-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
