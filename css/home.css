@@ -32,6 +32,21 @@
     border-radius: 20px;
 }
 
+.navbar{
+    height: 50vh;
+    width: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.mouse{
+    position: absolute;
+    right: 0;
+    background-color: #75d2a8;
+    color: #fff;
+}
+
 .navbar-img{
     height: 60vh;
     width: 300px;
@@ -110,16 +125,6 @@
         padding: 0.5rem;
     }
 
-}
-
-.home-lista::-webkit-scrollbar{
-    background-color: #d8d8d8;
-    width: 10px;
-}
-
-.home-lista::-webkit-scrollbar-thumb{
-    background-color: #75d2a8;
-    border-radius: 7px;
 }
 
 @media screen and (max-width: 990px){
