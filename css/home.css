@@ -112,6 +112,16 @@
 
 }
 
+.home-lista::-webkit-scrollbar{
+    background-color: #d8d8d8;
+    width: 10px;
+}
+
+.home-lista::-webkit-scrollbar-thumb{
+    background-color: #75d2a8;
+    border-radius: 7px;
+}
+
 @media screen and (max-width: 990px){
     .maindiv{
         display: flex;
